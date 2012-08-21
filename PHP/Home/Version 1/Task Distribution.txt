@@ -1,0 +1,8 @@
+To be accomplished
+
+	- Table Structures *Migs
+	- Full attendance report *Ned
+	- Initial db (per table) *Pau, Carlo DEADLINE: 9:00PM
+	
+	
+Make list of versions in index.php

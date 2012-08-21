@@ -1,0 +1,28 @@
+To be accomplished
+
+	- Event List *Carlo
+	
+	- List of Activities *Carlo
+	
+	- Attendance per Class *Migs  
+	
+		SELECT CL.class_id,  S.first_name, S.last_name FROM Student AS S  JOIN   Classlist AS CL ON (  S.student_id=CL.student_id )
+			WHERE (CL.class_id AND CL.student_id) IN
+				( SELECT R.class_id, R.student_id FROM Requires AS R  WHERE ( R.event_id ) IN 
+						( SELECT E.event_id FROM Event AS E WHERE ( E.event_id = 1 ))
+				)
+		SELECT * FROM Requires AS R JOIN  
+			Student AS S  JOIN   Classlist AS CL ON (  S.student_id=CL.student_id )
+		 
+
+		// Students and their respective class
+		SELECT CL.class_id,  S.first_name, S.last_name FROM Student AS S  JOIN   Classlist AS CL ON (  S.student_id=CL.student_id )
+
+			1. Name (Status)
+			2. Name (Status)
+			
+	- Classlist *Pau
+	
+	- List of all expected attendees *Pau
+	
+	- Available seats *Ned

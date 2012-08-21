@@ -1,0 +1,76 @@
+body {
+
+	background: url('../Images/bg.gif');
+
+}
+
+contentTable {
+
+	width: auto;
+	
+}
+
+table {
+
+	background-color: white;
+	border-collapse:collapse;
+	box-shadow: 3px 3px 1px #888;
+	margin: 1em 1em 1em 1em;
+	font-family: Sans-serif;
+	font-size: 12px;
+	
+}
+
+th {
+
+	color: white;
+	background-color: #009900;
+	padding: .5em;
+
+}
+
+th.title {
+
+	color: white;
+	background-color: #0d0d0d;
+	padding: .5em;
+
+}
+
+
+td {
+
+	padding: 1em;
+
+}
+
+th, td {
+
+	border: 1px solid #6f6f6f;
+
+}
+
+ul {
+
+	padding: 0;
+
+}
+
+li {
+
+	list-style: none;
+	padding: 1em;
+
+}
+
+a {
+
+	color: black;
+
+}
+
+a:hover {
+
+	color: #009900;
+
+}

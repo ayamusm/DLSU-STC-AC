@@ -1,0 +1,25 @@
+// ACTIVITY LIST LOOP
+						<div>
+						<?php
+						//Activity List
+						$activityQuery="SELECT DISTINCT *
+										FROM Event JOIN Activity
+											ON Activity.FK_event_id = Event.event_id
+										WHERE Event.event_id = '" . $eventID . "'";
+						$activityResult=mysql_query($activityQuery);
+						$numActivity=mysql_num_rows($activityResult);
+						$c=1; //Activity couter
+						
+					//	while($c <= $numActivity){	//Loop produces an error
+							while($actRow = mysql_fetch_array($activityResult)){
+								echo $actRow['title'] . " : " . $actRow['start_time'] . "-" . $actRow['end_time']; 
+							}
+							?>
+							<div id="tools"><a class="side" href="addActivity.php"> Add Activity </a></div>
+							<?php
+					//	}
+						 
+						?>
+						
+						</div>
+// ACTIVITY LIST LOOP

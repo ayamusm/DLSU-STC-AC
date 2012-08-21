@@ -1,0 +1,29 @@
+Reports Generated
+
+	- Attendees for the event
+	- Attendance per class
+	- Event List
+		-List of activities on a given event
+	- List of Activities
+	- Classlist
+	- Available seats
+
+
+
+/** DIVISION OF LABOR **/
+
+Migs - PHP mysql connection
+
+Pau - DAGDAGAN MO YUN SEED DATA =))
+	-Reports pa!
+
+Ned - SQL for reports
+	-Event list
+	-List of Activities
+	-List of activities on a given event
+
+Beng - SQL for reports
+	-Attendance for the event	//eto na yung pinagawa ni miss diba? o bukod pa to? D:
+	-Attendance per Class
+	-Classlist
+	-Available seats
