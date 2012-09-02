@@ -1,0 +1,46 @@
+/************
+
+filename: #login.css
+
+Date: 26 June 2012
+
+Author: Miguel Angelo S. Sumaya
+
+*************/
+
+#login{
+
+	background-color: white;
+	width:300px;
+	height: 130px;
+	padding:10px;
+	margin-top:7em;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 4px 4px 4px #767575;
+	-webkit-box-shadow: 4px 4px 4px #767575;
+
+}
+
+.mainContent {
+	
+	margin-top: 5em;
+	
+}
+
+
+
+.img {
+	
+	height: 120px;
+	width: 240px;
+	
+}
+
+.submit {
+
+	float: right;
+	
+}
+
+

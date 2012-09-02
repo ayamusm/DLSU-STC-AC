@@ -1,0 +1,93 @@
+/************
+
+filename: #representative.css
+
+Date: 29 June 2012
+
+Author: Miguel Angelo S. Sumaya
+
+*************/
+
+div.outer {
+	
+	background-color: #FFFFFF;
+	border-color: #FF9933;
+	border-width :5px;
+	text-align: left;
+	width:700px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	overflow-y: scroll;
+	top: 3em; /*y-axis centering*/
+	padding-bottom: 10px;
+	border-radius: 5px; 
+	box-shadow: 4px 4px 4px #767575;
+	-webkit-box-shadow: 4px 4px 4px #767575;
+	list-style: none;
+
+}
+
+#logout {
+	
+	background-color: #008900;
+	border-color: #006200;
+	border-width: 5px;
+	color: white;
+	width:70px;
+	height:20px;
+	border-radius:10px;
+	position:fixed;
+	text-align: center;
+	top:5px;
+	right:10px;
+	list-style-type:none;
+}
+
+#welcome {
+
+
+	color: white;
+	height:20px;
+	position:fixed;
+	top:5px;
+	left:10px;
+
+}
+
+.searchContent {
+	
+	display: table;
+	margin-left:auto;
+	margin-right:auto;
+	height: auto;
+	background-color: #EEE;
+	border: 1px solid #CFCFCF;
+	margin-bottom: 2em;
+	margin-top: 4em;
+	
+}
+
+#search {
+	
+	height: auto;
+	background-color: #fbfbfb;
+	border: 1px solid #CFCFCF;
+	padding: 2px;
+
+}
+
+
+
+h3 {
+
+	padding-left:1em;
+
+}
+
+h4 {
+	color: white;
+	background-color: #008900;
+	padding-left:1em;	
+}
